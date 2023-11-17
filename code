@@ -1,0 +1,22 @@
+#Udemy_Course: Master Python by building 100 projects in 100 days
+#Project_3 : Treasure Island
+# by, Md Ibrahim Mamun
+#-----------------------------------
+
+print("Welcome to the Treasure Island")
+print("Your Mission is to find the Trasure!")
+move = input("Youre at a crossroad. Where you want to go, left ot right ?")
+if move == "right":
+  print("Game Over")
+else:
+  water = input("You have come to a lake. What you want, swim or wait ?")
+  if water == "swim":
+    print("Game Over")
+  else:
+    door = input("There is a house with three doors. Which door, red or blue or yellow ?")
+    if door == "red" or door == "blue":
+      print("Game Over")
+    else:
+      print("Congratulations! You win.")
+
+
